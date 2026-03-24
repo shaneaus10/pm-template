@@ -2,6 +2,7 @@
 id: IF-NNN
 title: "Interface Title"
 status: draft
+author: "Your Name"
 surfaces: [F-NNN, F-NNN]
 personas: [P-NNN, P-NNN]
 constrained-by: [ADR-NNN, NFR-NNN]

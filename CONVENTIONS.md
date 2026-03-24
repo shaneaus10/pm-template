@@ -47,6 +47,7 @@ Every artifact file begins with YAML frontmatter:
 id: PREFIX-NNN
 title: "Human-readable title"
 status: draft | proposed | approved | implemented | deprecated
+author: "Your Name"
 serves: [P-001, P-002]           # WHO benefits (upward)
 delivers: [VP-001]               # WHY this matters (upward)
 implemented-by: [US-001]         # HOW it is done (downward)
@@ -73,7 +74,7 @@ supersedes: null
 ---
 ```
 
-- `author` is required — fill in before proposing
+- `author` is required on all artifacts — fill in before proposing
 - `date` is the date the ADR was authored, not approved
 - `supersedes` references the ADR this replaces, or `null`
 

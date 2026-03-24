@@ -2,6 +2,7 @@
 id: VP-NNN
 title: "Value Proposition Title"
 status: draft
+author: "Your Name"
 serves: [P-NNN, P-NNN]
 enables: [F-NNN, F-NNN]
 constrained-by: [NFR-NNN, ADR-NNN]

@@ -2,6 +2,7 @@
 id: US-NNN
 title: "User Story Title"
 status: draft
+author: "Your Name"
 implements: [F-NNN]
 surfaced-in: [IF-NNN]
 constrained-by: [ADR-NNN, NFR-NNN]

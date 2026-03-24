@@ -2,6 +2,7 @@
 id: NFR-NNN
 title: "NFR Title"
 status: draft
+author: "Your Name"
 constrains: [F-NNN, IF-NNN]
 ---
 

@@ -2,6 +2,7 @@
 id: F-NNN
 title: "Feature Title"
 status: draft
+author: "Your Name"
 serves: [P-NNN, P-NNN]
 delivers: [VP-NNN]
 implemented-by: [US-NNN]

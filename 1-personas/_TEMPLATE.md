@@ -2,6 +2,7 @@
 id: P-NNN
 title: "Persona Name"
 status: draft
+author: "Your Name"
 primary-interface: "[IF-NNN]"
 value-props: [VP-NNN, VP-NNN]
 ---
