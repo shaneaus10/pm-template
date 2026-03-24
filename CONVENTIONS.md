@@ -57,6 +57,26 @@ constrained-by: [ADR-001, NFR-001]  # lateral constraints
 
 Not all fields apply to every artifact type — use only the relevant ones.
 
+### ADR Frontmatter
+
+ADRs use a different frontmatter structure:
+
+```yaml
+---
+id: ADR-NNN
+title: "Decision Title"
+status: proposed
+date: YYYY-MM-DD
+author: "Your Name"
+constrains: [F-NNN, VP-NNN, NFR-NNN]
+supersedes: null
+---
+```
+
+- `author` is required — fill in before proposing
+- `date` is the date the ADR was authored, not approved
+- `supersedes` references the ADR this replaces, or `null`
+
 ---
 
 ## Status Lifecycle
