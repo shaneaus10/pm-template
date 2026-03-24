@@ -3,6 +3,7 @@ id: ADR-NNN
 title: "Decision Title"
 status: proposed
 date: YYYY-MM-DD
+author: "Your Name"
 constrains: [F-NNN, VP-NNN, NFR-NNN]
 supersedes: null
 ---
