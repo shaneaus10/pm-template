@@ -12,5 +12,12 @@ Thumbs.db
 *.key
 *.pem
 
-# Claude Code local settings (keep shared .claude/ rules & skills; ignore machine-local overrides)
+# Dependencies / build output (uncomment as needed)
+# node_modules/
+# dist/
+# build/
+# __pycache__/
+# .venv/
+
+# Claude Code local settings
 .claude/settings.local.json

@@ -2,48 +2,43 @@
 id: P-NNN
 title: "Persona Name"
 status: draft
-author: "Your Name"
-primary-interface: "[IF-NNN]"
-value-props: [VP-NNN, VP-NNN]
+author: "First name of person who proposed this artifact"
 ---
 
 # P-NNN: Persona Name
 
 ## Description
 
-<!-- 2–3 sentences describing who this person is, their relationship to sport, and their context for using Poiz. -->
+<!-- 2–3 sentences describing who this person is, their role in the organization, and how they interact with the work / systems being modeled. -->
 
 ## Goals
 
-- <!-- Primary goal related to mental performance -->
+- <!-- Primary goal related to their workflow -->
 - <!-- Secondary goal -->
 - <!-- Tertiary goal -->
 
 ## Pain Points
 
-- <!-- Key frustration or challenge this persona faces -->
+- <!-- Key frustration or challenge this persona faces today -->
 - <!-- Another pain point -->
 - <!-- Another pain point -->
 
-## Mental Performance Context
+## Current Workflow Context
 
-<!-- Describe the competitive pressure, preparation habits, and mental challenges specific to this persona's level of play. -->
+<!-- How this persona works today — manual steps, tools used, where errors occur, what decisions they make. -->
 
 ## Key Workflows
 
-1. <!-- Most important thing they do in Poiz -->
+1. <!-- Most important thing they do -->
 2. <!-- Second workflow -->
 3. <!-- Third workflow -->
 
-## Interfaces
+## Related Personas
 
-| Interface | Usage |
-|-----------|-------|
-| [IF-NNN](../5-interfaces/IF-NNN-slug.md) | <!-- How they use this surface --> |
+<!-- Personas are the foundation (layer 1). No frontmatter relationships, no downward refs.
+     This section is only for noting how this persona relates to OTHER personas
+     (parent/child, overlap, distinction). -->
 
-## Related Artifacts
-
-| Key | Title | Relationship |
-|-----|-------|-------------|
-| [VP-NNN](../2-value-props/VP-NNN-slug.md) | <!-- Value Prop Title --> | delivers value to this persona |
-| [F-NNN](../3-features/F-NNN-slug.md) | <!-- Feature Title --> | primary feature used |
+| Key | Relationship |
+|-----|-------------|
+| [P-NNN] | <!-- e.g., "subset of", "overlaps with", "successor to" --> |

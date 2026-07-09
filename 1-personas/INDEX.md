@@ -2,23 +2,22 @@
 title: "Persona Registry"
 dimension: personas
 prefix: P
+layer: 1
+layer-label: "Persona"
 ---
 
 # Persona Registry
 
-| Key | Title | Status | Primary Interface |
-|-----|-------|--------|------------------|
+Layer 1 — **Persona** (WHO). The foundation of the graph. Personas declare no downward references.
 
----
+## Active Registry
 
-## Persona × Interface Matrix
+| Key | Title | Status | Notes |
+|-----|-------|--------|-------|
+| [P-001](P-001-operations-lead.md) | Operations Lead | approved | 📎 EXAMPLE — delete or adapt during onboarding |
 
-| Persona | [Interface 1] | [Interface 2] | [Interface 3] |
-|---------|--------------|--------------|--------------|
+## Retired Keys
 
----
-
-## Persona × Value Prop Matrix
-
-| Persona | [VP-001] | [VP-002] | [VP-003] |
-|---------|---------|---------|---------|
+| Key | Original Title | Disposition |
+|-----|---------------|-------------|
+| — | — | — |
